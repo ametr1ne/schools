@@ -38,9 +38,9 @@
       width: 100%;
       height: 1080px;
       z-index: 1;
-      @media (max-width: 767px) {
-        display: none;
-      }
+      //@media (max-width: 767px) {
+      //  display: none;
+      //}
       &-online {
         //@media (min-width: 768px) {
           background: #FFF444;
@@ -60,24 +60,13 @@
         }
       }
     }
-    img {
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 50%;
-      margin-left: -383px;
-      z-index: 1;
-      @media (min-width: 768px) {
-        display: none;
-      }
-    }
   }
   &__container {
     display: block;
     position: relative;
     z-index: 1;
     width: 100%;
-    max-width: 1320px;
+    max-width: 870px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -252,29 +241,11 @@
   padding-top: 9px;
   padding-left: 115px;
 }
-@media (min-width: 1921px) {
-  .block1__bg {
-    img {
-      position: relative;
-      top: auto;
-      left: auto;
-      -webkit-transform: none;
-      -ms-transform: none;
-      transform: none;
-      width: 100%;
-      max-width: 100%;
-      object-fit: cover;
-      margin-left: 0;
-    }
-  }
-}
+
 @media (max-width: 1440px) {
   .block1 {
     padding-top: 129px;
     height: 743px;
-    &__container {
-      max-width: 728px;
-    }
     &__left {
       width: 100%;
       max-width: 450px;
@@ -303,7 +274,7 @@
     &__btn {
       margin-left: 0;
       margin-top: 40px;
-      margin-left: -16px;
+      //margin-left: -16px;
     }
     &__list {
       right: 269px;
@@ -311,17 +282,15 @@
     }
   }
 }
+
 @media (max-width: 1050px) {
-  .block1__c4 {
-    &:hover {
-      background: transparent;
-      border: 1px solid rgba(255,255,255, 0.2);
-      .triangle {
-        border-color: transparent transparent transparent #ffffff;
-      }
+  .block1 {
+    &__container {
+      max-width: 728px;
     }
   }
 }
+
 @media (max-width: 767px) {
 
   .block1 {
@@ -329,9 +298,6 @@
     height: auto;
     padding-bottom: 48px;
 
-    &__fire {
-      display: none;
-    }
     &__heading {
       display: none;
     }
@@ -356,8 +322,8 @@
     &__list {
       display: none;
     }
-    &__pic {
-      display: none;
-    }
+    //&__pic {
+    //  display: none;
+    //}
   }
 }

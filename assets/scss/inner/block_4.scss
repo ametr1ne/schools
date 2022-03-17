@@ -49,3 +49,11 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .block4 {
+    &__wrap {
+      max-width: 728px;
+    }
+  }
+}

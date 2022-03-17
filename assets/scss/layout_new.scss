@@ -195,14 +195,14 @@ body {
   position: relative;
   background: #ffffff;
 }
-//.black{
-//  background: #000;
-//}
+.black{
+	background: #000;
+}
 .black.book {
-  background: #d8d7d4;
+	background: #d8d7d4;
 }
 .black.book h2{
-  color: #000;
+	color: #000;
 }
 button{
   outline: none;
@@ -270,7 +270,7 @@ header{
   left: 0;
   z-index: 3;
 }
-.header__left{
+.header__left {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -329,10 +329,7 @@ a.header__logo:hover svg{
   transition: color 0.2s linear;
 
   &:hover {
-    color: #0067ff;
-    .black & {
-      color: #f00;
-    }
+    color: #f00;
   }
   &:last-child{
     margin-right: 0;
@@ -344,9 +341,6 @@ a.header__logo:hover svg{
       padding: 13px 30px 14px 30px;
       background: #f8f8f8;
       border-radius: 27px;
-      .black & {
-        background: rgba(#f8f8f8,.05);
-      }
     }
   }
 }
@@ -367,18 +361,13 @@ a.header__logo:hover svg{
     transition: color 0.2s linear;
 
     &:hover{
-      color: #0067ff;
-      .black & {
-        color: #f00;
-      }
+      color: #f00;
     }
   }
   & span {
     color: #000000;
-
   }
 }
-
 
 h1{
   display: block;
@@ -396,7 +385,9 @@ h2{
   letter-spacing: -.03em;
   color: #000000;
 }
-
+//.black h2{
+//	color: #ffffff;
+//}
 .btn{
   display: -webkit-flex;
   display: -moz-flex;
@@ -429,7 +420,7 @@ h2{
   -o-transition: background 0.2s linear;
   transition: background 0.2s linear;
 }
-.btn svg{
+.btn svg {
   display: block;
   margin-left: 50px;
   position: relative;
@@ -843,9 +834,9 @@ h2{
   .black .header__info a:hover {
     color: #ffffff;
   }
-  /*.header__logo:hover svg {
+  .header__logo:hover svg {
       fill: #ffffff;
-  }*/
+  }
   .header__menu{
     display: block;
     position: fixed;
@@ -968,7 +959,7 @@ h2{
   }
   .header__mobile-info p{
     display: block;
-    color: #777777;
+    //color: #777777;
     margin-bottom: 9px;
   }
   .header__mobile-info p:last-child{
@@ -994,9 +985,9 @@ h2{
     padding-right: 15px;
     padding-top: 15px;
   }
-  a.header__logo:hover svg{
-    fill: #fff;
-  }
+  //a.header__logo:hover svg{
+  //  fill: #fff;
+  //}
   .header__btn{
     top: 19px;
   }
