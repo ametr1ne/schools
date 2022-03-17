@@ -1,0 +1,32 @@
+
+// main yodiz colors
+$ydz-red:    #f00;
+$ydz-blue:   #0067ff;
+$ydz-orange: #ff6400;
+
+
+@mixin _1740 {
+  @media (max-width: 1740px){
+    @content;
+  }
+}
+@mixin _1440 {
+  @media (max-width: 1440px){
+    @content;
+  }
+}
+@mixin _1140 {
+  @media (max-width: 1140px){
+    @content;
+  }
+}
+@mixin _930 {
+  @media (max-width: 930px){
+    @content;
+  }
+}
+@mixin _767 {
+  @media (max-width: 767px){
+    @content;
+  }
+}
