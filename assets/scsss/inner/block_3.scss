@@ -1,0 +1,48 @@
+.block3 {
+  //max-width: 870px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 90px;
+
+  h2 {
+    display: block;
+    width: 100%;
+
+    color: #000000;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.block3__video-preview {
+  position: relative;
+  width: 1320px;
+  height: 300px;
+  margin: 44px auto 45px;
+
+  border: 1px solid #D0D0E1;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  .block1__c4 {
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+  }
+}
+
+.block3__wrap {
+  margin: 0 auto;
+  max-width: 870px;
+
+  p {
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+
+    color: #777777;
+  }
+}
+
+
