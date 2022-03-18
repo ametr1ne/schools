@@ -2460,13 +2460,9 @@ h2 {
     font-size: 25px;
     line-height: 35px;
   }
-  .block4 .block4__icon-item {
-    width: 70px;
+  .block4 .block4__icon svg {
     height: 70px;
-  }
-  .block4 .block4__icon-item svg {
-    height: 40px;
-    width: 40px;
+    width: 70px;
   }
 }
 @media (max-width: 767px) {
@@ -2632,6 +2628,7 @@ h2 {
   line-height: 130%;
   letter-spacing: -0.02em;
   color: #A5A5BB;
+  display: flex;
   margin-bottom: 10px;
 }
 .block6__wrap .block6__txt .block6__program-item ul li:before {
@@ -2686,6 +2683,11 @@ h2 {
   }
   .block6__pic {
     display: none;
+  }
+}
+@media (max-width: 380px) {
+  .block6__bonus-box {
+    flex-direction: column;
   }
 }
 .block7 {

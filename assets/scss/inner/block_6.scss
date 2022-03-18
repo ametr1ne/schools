@@ -87,6 +87,7 @@
             line-height: 130%;
             letter-spacing: -0.02em;
             color: #A5A5BB;
+            display: flex;
             margin-bottom: 10px;
 
             &:before {
@@ -163,7 +164,13 @@
     &__pic {
       display: none;
     }
+  }
+}
 
-
+@media (max-width: 380px) {
+  .block6 {
+    &__bonus-box {
+      flex-direction: column;
+    }
   }
 }
