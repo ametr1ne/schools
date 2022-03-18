@@ -754,6 +754,10 @@ h2 {
   transition: 0.2s linear;
 }
 
+.footer__mail a:hover {
+  color: #ff0000;
+}
+
 .black .footer__mail a:hover {
   color: #ff0000;
 }
@@ -808,6 +812,10 @@ h2 {
   -ms-transition: 0.2s linear;
   -o-transition: 0.2s linear;
   transition: 0.2s linear;
+}
+
+.footer__links a:hover {
+  color: #ff0000;
 }
 
 .black .footer__links a:hover {
