@@ -21,16 +21,14 @@
   max-width: 870px;
   margin-left: auto;
   margin-right: auto;
-  flex-direction: column;
-  max-height: 220px;
 }
 .block2__item {
   display: block;
   position: relative;
-  width: 47%;
+  width: 50%;
   padding-right: 40px;
 
-  &:nth-child(odd) {
+  &:nth-child(-n+2) {
     margin-bottom: 36px;
   }
 
@@ -59,6 +57,24 @@
   &:nth-child(2) {
     svg {
       top: 4px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .block2 {
+    padding-top: 38px;
+    padding-bottom: 47px;
+
+    &__wrap {
+      max-width: 728px;
+    }
+
+    &__item {
+      p {
+        font-size: 25px;
+        line-height: 35px;
+      }
     }
   }
 }

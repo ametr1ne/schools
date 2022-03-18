@@ -50,6 +50,17 @@
     svg {
       margin-left: 134px;
     }
+
+    &:hover {
+      background: #ff0000;
+      color: white;
+
+      svg {
+        path {
+          fill: white;
+        }
+      }
+    }
   }
 }
 
@@ -63,6 +74,80 @@
 
     p {
       font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .block7 {
+    &__form {
+      max-width: 870px;
+      width: calc(100% - 30px);
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    &__wrap {
+      max-width: 728px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    &__left {
+      p {
+        font-size: 25px;
+        line-height: 35px;
+      }
+
+      .how {
+        margin-bottom: 16px;
+      }
+
+      .solution {
+        color: #A5A5BB;
+
+        &:not(:last-child) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    &__right {
+      .block7__item {
+        p {
+          font-size: 25px;
+          line-height: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .block7 {
+    margin-bottom: 80px;
+
+    &__form {
+      max-width: 400px;
+      padding: 16px 15px 15px;
+    }
+
+    &__left {
+      padding-right: 0;
+
+      .block7__btn {
+        margin-top: 28px;
+      }
+    }
+
+    &__wrap {
+      max-width: 400px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    &__right {
+      display: none;
     }
   }
 }

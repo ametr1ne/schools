@@ -66,7 +66,7 @@
     position: relative;
     z-index: 1;
     width: 100%;
-    max-width: 870px;
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -246,6 +246,10 @@
   .block1 {
     padding-top: 129px;
     height: 743px;
+
+    &__container {
+      max-width: 728px;
+    }
     &__left {
       width: 100%;
       max-width: 450px;
@@ -274,7 +278,7 @@
     &__btn {
       margin-left: 0;
       margin-top: 40px;
-      //margin-left: -16px;
+      margin-left: -16px;
     }
     &__list {
       right: 269px;
@@ -322,8 +326,8 @@
     &__list {
       display: none;
     }
-    //&__pic {
-    //  display: none;
-    //}
+    &__pic {
+      display: none;
+    }
   }
 }
