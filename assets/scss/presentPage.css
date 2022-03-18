@@ -871,6 +871,9 @@ h2 {
   -o-transition: 0.2s linear;
   transition: 0.2s linear;
 }
+.footer__address a:hover {
+  color: #ff0000;
+}
 .black .footer__address a:hover {
   color: #ff0000;
 }
