@@ -2716,6 +2716,7 @@ h2 {
   margin-top: 50px;
   background: #FFF444;
   color: black;
+  transition: 0.3s linear;
 }
 .block7__left .block7__btn svg {
   margin-left: 134px;
