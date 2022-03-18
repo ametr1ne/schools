@@ -381,6 +381,10 @@ button {
   outline: none;
 }
 
+.text-grey {
+  color: #A5A5BB !important;
+}
+
 main {
   display: block;
   width: 100%;
@@ -2268,7 +2272,7 @@ h2 {
   letter-spacing: -0.03em;
 }
 .block2__item p:first-child {
-  color: #777777;
+  color: #A5A5BB;
   padding-bottom: 8px;
   letter-spacing: 0;
 }
