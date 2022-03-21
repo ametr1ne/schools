@@ -8,35 +8,14 @@
     line-height: 130%;
     letter-spacing: -0.02em;
     color: #000000;
-    margin-bottom: 15px;
-  }
-
-  &__info {
-    .block6__count-stud {
-      font-size: 80px;
-      line-height: 110%;
-      letter-spacing: -0.04em;
-    }
-
-    p {
-      font-size: 30px;
-      line-height: 130%;
-      letter-spacing: -0.02em;
-    }
-
-    small {
-      display: flex;
-      margin-top: 10px;
-      font-weight: 400;
-      font-size: 19px;
-      line-height: 140%;
-      color: #A5A5BB;
-    }
+    margin-bottom: 20px;
   }
 
   &__bonus-box {
     display: flex;
-    margin-bottom: 19px;
+    margin-bottom: 21px;
+    background: #FAFAFE;
+    padding: 20px 32px 22px 30px;
 
     .bonus-img {
       margin-right: 28px;
@@ -44,10 +23,10 @@
     }
 
     .bonus-txt {
-      font-size: 30px;
+      font-size: 19px;
       line-height: 140%;
       letter-spacing: -0.02em;
-      color: #777777;
+      color: #9090A9;
     }
   }
 }
@@ -60,11 +39,10 @@
 
   .block6__pic {
     width: 300px;
-    padding-top: 75px;
+    padding-top: 135px;
 
     img {
       margin-left: -150px;
-      margin-bottom: 44px;
     }
   }
 
@@ -90,10 +68,10 @@
             display: flex;
             margin-bottom: 10px;
 
-            &:before {
-              content: '•';
-              padding-right: 10px;
-            }
+            //&:before {
+            //  content: '•';
+            //  padding-right: 10px;
+            //}
           }
         }
       }

@@ -14,6 +14,12 @@ jQuery(function($){
 });*/
 
 jQuery(function($){
+    $('.presentation__link').click(function (e) {
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top - 41
+        }, 600);
+        return false;
+    });
     if ($(window).width() > 1050) {
         $('.header__link, .scroll').click(function (e) {
             $('html, body').animate({
@@ -172,10 +178,10 @@ $('.modal-close').click(function() {
         this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
     });
 });
-$('.block1__c4').click(function() {
-    $('.modal-video').stop().fadeIn();
-    $('.block1__overlay').addClass('preload');
-});
+// $('.block1__c4').click(function() {
+//     $('.modal-video').stop().fadeIn();
+//     $('.block1__overlay').addClass('preload');
+// });
 
 
 
