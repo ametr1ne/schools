@@ -135,7 +135,6 @@
         border-top: 1px solid #D7D7E7;
         margin-bottom: 0;
         position: relative;
-        transition: padding-bottom 0.4s;
 
         &:last-child {
           border-bottom: 1px solid #D7D7E7;
@@ -175,9 +174,16 @@
         }
 
         .body {
-          visibility: hidden;
-          position: absolute;
-          margin-top: 7px;
+          //overflow: hidden;
+          max-height: 0;
+          transition: max-height 0.3s;
+
+          &__limiter {
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s;
+            margin-top: 7px;
+          }
         }
 
         ul {
@@ -188,7 +194,6 @@
       }
 
       .open-list {
-        transition: padding-bottom 0.4s;
         .title {
           .arrow {
             transform: rotate(180deg);
@@ -196,8 +201,14 @@
           }
         }
         .body {
-          visibility: visible;
-          //position: static;
+          //overflow: visible;
+          transition: max-height 0.3s;
+
+          &__limiter {
+            visibility: visible;
+            opacity: 1;
+            transition: opacity 0.3s;
+          }
         }
       }
     }

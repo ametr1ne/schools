@@ -50,9 +50,11 @@ jQuery(function($){
             animationEnd = false;
             $('html, body').toggleClass('overflow');
             $('.header__menu').toggleClass('opened');
+            $('.dark').show()
             if ($('.header__btn').hasClass('closed')){
                 $('.header__line--3').removeClass('header__line--3-fly');
                 $('.header__btn').removeClass('closed');
+                $('.dark').hide()
 
                 setTimeout(function(){
                     $('.header__line--2').removeClass('header__line--2-fly');
@@ -71,6 +73,18 @@ jQuery(function($){
             }, 600);
         }
     });
+    $('.dark').on('click', function () {
+        $(this).hide()
+        $('html, body').removeClass('overflow');
+        $('.header__menu').removeClass('opened');
+        $('.header__line--3').removeClass('header__line--3-fly');
+        $('.header__btn').removeClass('closed');
+
+        setTimeout(function(){
+            $('.header__line--2').removeClass('header__line--2-fly');
+        }, 300);
+    })
+
 });
 
 
@@ -171,13 +185,13 @@ window.addEventListener('scroll', function () {
 
 
 // Modals
-$('.modal-close').click(function() {
-    $('.modal-video').stop().fadeOut();
-    $('.block1__overlay').removeClass('preload');
-    $('.modal-video iframe').each(function(){
-        this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
-    });
-});
+// $('.modal-close').click(function() {
+//     $('.modal-video').stop().fadeOut();
+//     $('.block1__overlay').removeClass('preload');
+//     $('.modal-video iframe').each(function(){
+//         this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+//     });
+// });
 // $('.block1__c4').click(function() {
 //     $('.modal-video').stop().fadeIn();
 //     $('.block1__overlay').addClass('preload');
@@ -283,9 +297,10 @@ jQuery(function($){
 
 $('.block6__program-item .title').on('click', function () {
     $(this).closest('.block6__program-item').toggleClass('open-list');
-    let heightItem = $(this).next('.body').outerHeight() + 25
+    let heightItem = $(this).next('.body').find('.body__limiter').outerHeight()
+    console.log(heightItem)
     if ($(this).closest('.block6__program-item').hasClass('open-list')) {
-        $(this).closest('.block6__program-item').css('padding-bottom', heightItem + 'px')
-    } else $(this).closest('.block6__program-item').css('padding-bottom', '15px ')
+        $(this).next('.body').css('max-height', heightItem + 'px')
+    } else $(this).next('.body').css('max-height', '0')
 })
 
