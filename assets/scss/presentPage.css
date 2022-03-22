@@ -2832,6 +2832,7 @@ h2 {
   margin-top: 30px;
   background: #0500FF;
   color: white;
+  z-index: 1;
   transition: 0.3s linear;
 }
 .block7__left .block7__btn svg {
