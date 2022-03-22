@@ -2774,6 +2774,9 @@ h2 {
   .block6__program-item ul li {
     font-size: 16px;
   }
+  .block6__program .open-list {
+    padding-bottom: 25px;
+  }
   .block6__program .open-list .title .arrow {
     transform: rotate(180deg);
     transition: transform 0.3s;

@@ -194,6 +194,7 @@
       }
 
       .open-list {
+        padding-bottom: 25px;
         .title {
           .arrow {
             transform: rotate(180deg);
@@ -201,7 +202,6 @@
           }
         }
         .body {
-          //overflow: visible;
           transition: max-height 0.3s;
 
           &__limiter {
