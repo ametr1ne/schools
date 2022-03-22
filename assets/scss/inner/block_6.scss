@@ -60,7 +60,10 @@
           line-height: 130%;
           letter-spacing: -0.02em;
           display: flex;
-          margin-bottom: 10px;
+
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
         }
       }
     }
@@ -174,7 +177,6 @@
         }
 
         .body {
-          //overflow: hidden;
           max-height: 0;
           transition: max-height 0.3s;
 
