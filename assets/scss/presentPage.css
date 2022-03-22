@@ -1936,7 +1936,7 @@ h2 {
   position: relative;
   width: 100%;
   z-index: 1;
-  height: 882px;
+  height: 828px;
   padding-top: 173px;
   overflow: hidden;
 }
@@ -2024,7 +2024,7 @@ h2 {
   color: #000000;
   max-width: 600px;
   margin-top: 38px;
-  padding-right: 20px;
+  padding-right: 85px;
 }
 .block1__txt {
   display: block;
@@ -2237,6 +2237,7 @@ h2 {
     font-size: 20px;
     color: #9090A9;
     line-height: 130%;
+    padding-right: 0;
   }
   .block1__txt {
     display: none;
@@ -2317,7 +2318,6 @@ h2 {
 }
 .block2__item p:first-child {
   padding-bottom: 8px;
-  letter-spacing: 0;
 }
 .block2__item svg {
   margin-right: 19px;
@@ -2842,6 +2842,7 @@ h2 {
   color: white;
   z-index: 1;
   transition: 0.3s linear;
+  margin-left: -16px;
 }
 .block7__left .block7__btn svg {
   margin-left: 48px;

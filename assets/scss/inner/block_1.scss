@@ -3,7 +3,7 @@
   position: relative;
   width: 100%;
   z-index: 1;
-  height: 882px;
+  height: 828px;
   padding-top: 173px;
   overflow: hidden;
 
@@ -93,7 +93,7 @@
     color: #000000;
     max-width: 600px;
     margin-top: 38px;
-    padding-right: 20px;
+    padding-right: 85px;
   }
   &__txt {
     display: block;
@@ -309,6 +309,7 @@
       font-size: 20px;
       color: #9090A9;;
       line-height: 130%;
+      padding-right: 0;
     }
     &__txt {
       display: none;
