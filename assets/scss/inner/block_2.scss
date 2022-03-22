@@ -42,7 +42,6 @@
     letter-spacing: -.03em;
 
     &:first-child {
-      color: #A5A5BB;
       padding-bottom: 8px;
       letter-spacing: 0;
     }
@@ -83,6 +82,7 @@
   .block2__item {
     width: 50%;
     margin-bottom: 28px;
+
     &:last-child {
       width: 50%;
     }
@@ -108,7 +108,13 @@
     padding-right: 15px;
   }
   .block2__item {
+    margin-bottom: 23px;
     width: 100%;
+
+    &:nth-child(-n+2) {
+      margin-bottom: 23px;
+    }
+
     &:last-child {
       width: 100%;
       margin-bottom: 0;

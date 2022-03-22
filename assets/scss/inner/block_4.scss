@@ -30,23 +30,20 @@
     }
   }
 
-}
-
-.block4__wrap {
-  max-width: 870px;
-  margin: 0 auto;
-
-  .block4__software-box {
+  &__software-box {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-
 
     .block4__icons-box {
       display: flex;
       grid-column-gap: 30px;
     }
   }
+}
+.block4__wrap {
+  max-width: 870px;
+  margin: 0 auto;
 }
 
 
@@ -83,8 +80,16 @@
     &__subtitle {
       margin-bottom: 23px;
     }
+
     &__software-box {
+      margin-top: 21px;
       flex-direction: column;
+    }
+
+    &__icon {
+      p {
+        font-size: 16px;
+      }
     }
 
     &__web-design {

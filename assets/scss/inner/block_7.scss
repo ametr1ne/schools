@@ -1,11 +1,10 @@
 .block7 {
-  margin-bottom: 120px;
+  margin-bottom: 130px;
 }
 
 .block7__form {
   border: 1px solid #D0D0E1;
   box-sizing: border-box;
-  border-radius: 10px;
   max-width: 1320px;
   margin: 0 auto;
   padding: 76px 0 100px;
@@ -34,14 +33,6 @@
     margin-bottom: 16px;
   }
 
-  .solution {
-    color: #A5A5BB;
-
-    &:not(:last-child) {
-      margin-bottom: 15px;
-    }
-  }
-
   .block7__btn {
     margin-top: 30px;
     background: #0500FF;
@@ -65,10 +56,6 @@
     padding-right: 0;
     width: 100%;
     margin-bottom: 36px;
-
-    p {
-      font-size: 30px;
-    }
   }
 }
 
@@ -88,6 +75,10 @@
     }
 
     &__left {
+
+      h2 {
+        margin-bottom: 31px;
+      }
       p {
         font-size: 25px;
         line-height: 35px;
@@ -119,18 +110,30 @@
 
 @media (max-width: 767px) {
   .block7 {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 
     &__form {
       max-width: 400px;
-      padding: 16px 15px 15px;
+      padding: 16px 20px 30px;
     }
 
     &__left {
       padding-right: 0;
+      width: 100%;
+
+      p {
+        font-size: 20px;
+        line-height: 130%;
+      }
+
+      .how {
+        margin-bottom: 13px;
+      }
 
       .block7__btn {
-        margin-top: 28px;
+        margin-top: 23px;
+        margin-right: -9px !important;
+        margin-left: -9px !important;
       }
     }
 

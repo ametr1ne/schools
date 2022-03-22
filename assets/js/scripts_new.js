@@ -278,3 +278,14 @@ jQuery(function($){
         infinite: true
     });
 });
+
+/*------------ Program free course -------------*/
+
+$('.block6__program-item .title').on('click', function () {
+    $(this).closest('.block6__program-item').toggleClass('open-list');
+    let heightItem = $(this).next('.body').outerHeight() + 25
+    if ($(this).closest('.block6__program-item').hasClass('open-list')) {
+        $(this).closest('.block6__program-item').css('padding-bottom', heightItem + 'px')
+    } else $(this).closest('.block6__program-item').css('padding-bottom', '15px ')
+})
+

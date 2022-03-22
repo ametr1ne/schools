@@ -60,19 +60,27 @@
   .block3__video-preview {
     max-width: 870px;
     width: calc(100% - 30px);
+    height: 488px;
   }
 }
 
 @media (max-width: 767px) {
   .block3 {
+    margin-bottom: 38px;
     &__wrap {
       max-width: 400px;
       padding-left: 15px;
       padding-right: 15px;
+
+      p {
+        font-size: 20px;
+        line-height: 130%;
+      }
     }
 
     &__video-preview {
-      height: 180px;
+      margin: 20px auto;
+      height: 224px;
       max-width: 400px;
 
       .block1__c4 {
