@@ -115,12 +115,17 @@
 
     &__form {
       max-width: 400px;
-      padding: 16px 20px 30px;
+      padding: 16px 10px 30px;
     }
 
     &__left {
       padding-right: 0;
       width: 100%;
+
+      h2, p {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
 
       p {
         font-size: 20px;
@@ -133,8 +138,6 @@
 
       .block7__btn {
         margin-top: 23px;
-        margin-right: -9px !important;
-        margin-left: -9px !important;
       }
     }
 

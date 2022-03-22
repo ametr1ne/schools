@@ -2898,11 +2898,15 @@ h2 {
   }
   .block7__form {
     max-width: 400px;
-    padding: 16px 20px 30px;
+    padding: 16px 10px 30px;
   }
   .block7__left {
     padding-right: 0;
     width: 100%;
+  }
+  .block7__left h2, .block7__left p {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .block7__left p {
     font-size: 20px;
@@ -2913,8 +2917,6 @@ h2 {
   }
   .block7__left .block7__btn {
     margin-top: 23px;
-    margin-right: -9px !important;
-    margin-left: -9px !important;
   }
   .block7__wrap {
     max-width: 400px;
