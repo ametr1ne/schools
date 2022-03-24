@@ -74,7 +74,7 @@
                 <h1>Веб-дизайн,
                     <br> быстрый старт</h1>
                 <div class="breadcrumbs">
-                    <a href="index.html">На главную</a>
+                    <a href="index.php">На главную</a>
                     <span>&nbsp;/&nbsp;</span>
                     <span>Бесплатный онлайн-курс</span>
                 </div>
@@ -128,7 +128,9 @@
                 </svg>
                 <div class="item__right">
                     <p class="text-grey">Когда старт?</p>
-                    <p>5 февраля, 19:00 мск</p>
+                    <?php $arr = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+                    $month = date('n')-1;?>
+                    <p><?=date("j $arr[$month]", strtotime("+3 days"))?>, 19:00 мск</p>
                 </div>
             </div>
             <div class="block2__item">
