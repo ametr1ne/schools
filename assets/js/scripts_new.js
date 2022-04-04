@@ -84,7 +84,6 @@ jQuery(function($){
             $('.header__line--2').removeClass('header__line--2-fly');
         }, 300);
     })
-
 });
 
 
