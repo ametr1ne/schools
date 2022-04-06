@@ -19,7 +19,7 @@
     <meta property="og:image" content="../assets/img/almaz.gif">
     <meta property="og:url" content="https://yodizschool.ru/online">
     <!-- Finish "Open graph" meta tags -->
-    <link href="../assets/scss/presentPage.css" rel="stylesheet">
+    <link href="../assets/css/presentPage.min.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/img/favicon.svg">
 </head>
 
@@ -78,8 +78,7 @@
                     <span>&nbsp;/&nbsp;</span>
                     <span>Бесплатный онлайн-курс</span>
                 </div>
-                <p class="block1__heading">Освой основные инструменты и познакомься с навыками которые важно развивать
-                    веб-дизайнеру</p>
+                <p class="block1__heading">Освой инструменты и навыки необходимые веб-дизайнеру</p>
                 <div class="block1__txt">
                     <p>Дима Зубков</p>
                     <p>Руководитель Yodiz Studio</p>
@@ -262,7 +261,7 @@
                     </div>
                 </div>
                 <div class="block4__motion-design">
-                    <p class="block4__subtitle text-grey">Моушен-дизайн</p>
+                    <p class="block4__subtitle text-grey">Моушн-дизайн</p>
                     <div class="block4__icons-box">
                         <div class="block4__icon">
                             <svg width="120" height="121" viewBox="0 0 120 121" fill="none"
@@ -369,11 +368,6 @@
                                 <ul class="text-grey">
                                     <li>Где и как искать стоковые изображения?</li>
                                     <li>Поиск и установка шрифтов</li>
-                                    <li>Где искать вдохновение и свежие тренды?</li>
-                                    <li>Что такое уровень нормы?</li>
-                                    <li>Почему производство баннеров так прибыльно?</li>
-                                    <li>Что такое ресайз баннера?</li>
-                                    <li>В чем отличие между JPG, GIF, HTML5 и MP4 баннерами?</li>
                                     <li>Структура статичного баннера</li>
                                     <li>Обтравка изображений в Photoshop</li>
                                     <li>Сборка баннера в Figma</li>
@@ -384,16 +378,19 @@
                     </div>
                     <div class="block6__program-item">
                         <div class="title">
-                            <h3><span>3. </span>Видео баннер в Photoshop? Легко!</h3>
+                            <h3><span>3. </span>Видеобаннер в Photoshop? Легко!</h3>
                             <div class="arrow"></div>
                         </div>
                         <div class="body">
                             <div class="body__limiter">
                                 <ul class="text-grey">
+                                    <li>Где искать вдохновение и свежие тренды?</li>
+                                    <li>Что такое уровень нормы?</li>
+                                    <li>В чем отличие между JPG, GIF, HTML5 и MP4 баннерами?</li>
                                     <li>Лучшие бесплатные стоки для поиска видео футажей</li>
-                                    <li>Форматы видео баннеров для соц. сетей</li>
-                                    <li>Как собрать видео баннер в фотошопе?</li>
-                                    <li>Как правильно сохранить видео баннер для соц. сети?</li>
+                                    <li>Форматы видеобаннеров для соц. сетей</li>
+                                    <li>Как собрать видеобаннер в фотошопе?</li>
+                                    <li>Как правильно сохранить видеобаннер для соц. сети?</li>
                                 </ul>
                             </div>
                         </div>
@@ -406,10 +403,10 @@
                        <div class="body">
                           <div class="body__limiter">
                               <ul class="text-grey">
+                                  <li>Почему производство баннеров так прибыльно?</li>
+                                  <li>Что такое ресайз баннера?</li>
                                   <li>Знакомство с программой Adobe Animate</li>
                                   <li>Почему веб-дизайнеру важно знать основы моушн-дизайна?</li>
-                                  <li>Миллионы на HTML5 баннерах</li>
-                                  <li>Примеры работ</li>
                                   <li>Анимация логотипа в Animate</li>
                                   <li>Как сохранить и добавить анимацию в соц. сети?</li>
                               </ul>
@@ -601,7 +598,7 @@
 <!--        </div>-->
 <!--    </div>-->
 <!--</div>-->
-
+<script src="../assets/js/jquery.3-5-1.min.js"></script>
 <script src="../assets/js/scripts_new.js"></script>
 
 <script>
